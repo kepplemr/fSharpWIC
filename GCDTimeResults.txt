@@ -1,0 +1,19 @@
+﻿Michael Kepple
+October 13th, 2011
+
+Time results for F# GCD program when M =
+
+                   Time
+M = 1,000          27.3472
+M = 10,000         118.9832
+M = 100,000        1068.3071
+M = 500,000        5259.0915
+M = 1,000,000      10415.4658
+M = 2,500,000      26472.6907
+M = 5,000,000      52508.8493
+M = 10,000,000     105714.6546
+M = 100,000,000    1090811.5298
+
+The complexity of the GCD program is shown to be roughly O(n). When M is small, the final jump/put/etc. statements have a greater effect on the time total, 
+because it takes the computer so little time to do the actual operation. Once M hits around 100,000, increases in M will result in an almost exactly corresponding
+increases in the time taken to calculate the GCD. It is slower than the C WIC interpreter.

@@ -1,0 +1,21 @@
+﻿get X1
+get X2
+get X3
+get X4
+push X1
+push X2
+not
+or
+push X3
+not
+or
+push X1
+not
+push X2
+or
+push X4
+or
+and
+pop Result
+put Result
+halt

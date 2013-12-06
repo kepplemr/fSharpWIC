@@ -1,0 +1,39 @@
+﻿get A
+get B
+push A
+push B
+sub
+tstlt
+pop LTresult
+put LTresult
+push A
+push B
+sub
+tstle
+pop LEresult
+put LEresult
+push A
+push B
+sub
+tsteq
+pop EQresult
+put EQresult
+push A
+push B
+sub
+tstne
+pop NEresult
+put NEresult
+push A
+push B
+sub
+tstgt
+pop GTresult
+put GTresult
+push A
+push B
+sub
+tstge
+pop GEresult
+put GEresult
+halt
